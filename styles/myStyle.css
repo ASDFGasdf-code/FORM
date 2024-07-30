@@ -1,0 +1,168 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Fredoka:wght@300..700&display=swap');
+
+body {
+    direction: rtl;
+    font-family: "Assistant", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    width: 1280px;
+    margin: auto 0;
+    font-size: 1.2vw;
+    background-color: #F9F9F7;
+    color: #054462;
+}
+
+h1 {
+    font-size: 3vw;
+    text-align: center;
+    color: #F59E7B;
+}
+
+.mid_title {
+    align-items: center;
+}
+
+h2 {
+    color: #92C7B3;
+    font-size: medium;
+    margin-bottom: 1%;
+}
+
+#form {
+    float: right;
+    display: block;
+    position: absolute;
+    margin: 0vw 5vw;
+    line-height: 2;
+    width: 55%;
+}
+
+    #form fieldset {
+        border: none;
+    }
+
+#sleepStart {
+    font-size: 1.2vw;
+}
+
+#sleepEnd {
+    font-size: 1.2vw;
+}
+
+#waterForm {
+    font-size: 1.2vw;
+}
+
+#form_title {
+    font-size: 3vw;
+    margin-top: 1%;
+}
+
+.Fcontact {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+#INPUT {
+    margin: 1%;
+    max-width: 500px;
+    width: 150%;
+}
+
+#send {
+    border: 2px solid #054462;
+    border-radius: 20px;
+    background-color: #92C7B3;
+    color: #054462;
+    height: 15%;
+    width: 50%;
+    padding: 2%;
+    margin-top: 5%;
+    font-size: 2vw;
+    font-weight: bold;
+    float: right;
+}
+
+#feedback {
+    width: 20%;
+    text-align: right;
+    margin-bottom: 80%;
+    width: 100%;
+    clear: both;
+}
+
+/* סקשן תמונות */
+
+#img_title {
+    margin: 10% 70% 0% 1%;
+    font-size: large;
+}
+
+#img {
+    background-color: #FAF8F5;
+    width: 30%;
+    height: 100%;
+    right: 60%;
+    border: 2px solid #054462;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    position: relative;
+    padding: 1%;
+}
+
+#sleepNmove_img, #waterNfood_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin: 1%;
+}
+
+img {
+    padding: 10px 0;
+    height: auto;
+    width: 20%;
+    max-width: 280px;
+}
+
+#sleep_img, #sport_img, #water_img, #food_img {
+    text-align: center;
+}
+
+    #food_img div img {
+        height: auto;
+        width: 50%;
+    }
+
+h6 {
+    font-size: 1vw;
+}
+
+h4 {
+    font-size: 1.5vw;
+}
+
+h4, h6 {
+    margin: 0.5%;
+    color: #92C7B3;
+}
+
+#proteinNcarb_img, #oilNfruitNveg_img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+    #oilNfruitNveg_img img {
+        width: 70%;
+    }
+
+#sport_img, #water_img {
+    margin-top: 8%;
+}
